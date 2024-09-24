@@ -21,6 +21,10 @@ func GetOrderItem() gin.HandlerFunc {
 	return func(c *gin.Context)
 }
 
-func CreateOrderItems() gin.HandlerFunc {
+func CreateOrderItem() gin.HandlerFunc {
+	return func(c *gin.Context)
+}
+
+func UpdateOrderItem() gin.HandlerFunc {
 	return func(c *gin.Context)
 }
